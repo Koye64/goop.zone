@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Gloober;
+  src: url("/assets/fonts/gloober/Gloober.otf");
+}
+@font-face {
+  font-family: Moonraze;
+  src: url("/assets/fonts/moonraze/Moonraze-Regular.otf");
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url("/assets/bluegoop.webp") no-repeat;
+  background-size: cover;
+  /*background-color: rgb(0, 140, 255);
+  background-blend-mode: multiply;*/
+  margin: 0;
+  font-family: Moonraze;
+}
+h1 {
+  font-size: 64px;
+}
+p {
+  font-size: 32px;
+}
+
+a {
+  font-family: Gloober;
+  text-transform: uppercase;
+}
